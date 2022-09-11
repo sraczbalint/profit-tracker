@@ -1,0 +1,30 @@
+.summaryCard {
+  max-width: 325px;
+  min-width: 240px;
+  height: 100%;
+  min-height: 180px;
+  flex-grow: 1;
+
+  .cardContent {
+    min-width: 235px;
+
+    .topSection {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .trendContainer {
+      padding-top: 16px;
+      display: flex;
+      align-items: center;
+
+      .trendPercentage {
+        margin-right: 8px;
+      }
+    }
+
+    .progressContainer {
+      padding-top: 24px;
+    }
+  }
+}
